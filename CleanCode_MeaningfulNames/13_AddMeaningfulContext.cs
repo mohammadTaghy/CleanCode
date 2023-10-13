@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _13_AddMeaningfulContext
+    internal class Order
     {
+        public string State { get; set; }
     }
+    class Address
+    {
+        public string State { get; set; }
+    }
+    class SampleClass
+    {
+        public SampleClass() { 
+            Order order = new Order();
+            order.State = "Draft";
+            Address address = new Address();
+            address.State="Tehran"
+        }
+    }
+
 }

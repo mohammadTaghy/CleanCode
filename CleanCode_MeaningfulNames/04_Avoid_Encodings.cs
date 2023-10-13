@@ -16,12 +16,31 @@ namespace CleanCode_MeaningfulNames
     }
     #region Member Prefixes
 
-    class Person
+    class User
     {
         string var_name = "";
         string var_telephon = "";
         string var_email = "";
+
+        public string UserName { get; set; }
+        public string UserPhone { get; set; }
+        public string UserEmail { get; set; }
+
     }
+    #endregion
+    #region Interfaces and Implementations
+
+
+    interface IPerson { }
+    class PersonImpl : IPerson { }
+    class Person : IPerson { }
+    class PersonInfo:Person { }
+    class PersonCantact:Person { }
+
+
+    interface Shape { }
+    class Polygon:Shape { }
+
     #endregion
 
 }

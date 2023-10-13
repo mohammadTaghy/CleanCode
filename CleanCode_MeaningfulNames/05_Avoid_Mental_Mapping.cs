@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _05_Avoid_Mental_Mapping
+    internal class Avoid_Mental_Mapping
     {
+        //premium
+        //parameter
+        public int Prm { get; set; }
+        
+        public int HB { get; set; }
     }
 }

@@ -50,5 +50,5 @@ namespace CleanCode_MeaningfulNames
             };
         }
     }
-   
+
 }

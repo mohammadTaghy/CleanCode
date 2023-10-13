@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _11_UseSolutionDomainNames
+    internal class ItBelongToYourBusiness
     {
     }
 }

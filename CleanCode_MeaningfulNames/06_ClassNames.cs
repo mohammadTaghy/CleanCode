@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _06_ClassNames
-    {
-    }
+    //Correct
+    internal class Customer { }
+    internal class WikiPage { }
+    internal class Account { }
+    //incorrect
+    class CustomerManager { }
+    class UserData { }
+    class PersonInfo { }
 }

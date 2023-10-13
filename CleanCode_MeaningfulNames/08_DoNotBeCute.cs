@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _08_DoNotBeCute
+    internal class DoNotBeCute
     {
+        //incorrect
+        void HolyHandGrenade()
+        {
+
+        }
+        //correct
+        void DeleteItems() { }
+
     }
 }

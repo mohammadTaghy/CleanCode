@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _11_UseSolutionDomainNames
+    internal class AccountVisitor
     {
+    }
+    class JobQueue { }
+    class SampleClass
+    {
+        public void Subscribe()
+        {
+
+        }
     }
 }

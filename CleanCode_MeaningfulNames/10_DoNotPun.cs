@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace CleanCode_MeaningfulNames
 {
-    internal class _10_DonNotPun
+    internal class DoNotPun
     {
+        void Add(Student student)
+        {
+            //add student object in db
+        }
+        void Add()
+        {
+            //index++
+        }
+    }
+    class Student
+    {
+
     }
 }
