@@ -15,13 +15,13 @@
         #endregion
 
         #region Use reserved words correctly
-        class ReservedWordsSample
+        public class ReservedWordsSample
         {
             public string AcountList = "some information of account";
         }
         class UserFactory
         {
-
+           
         }
         #endregion
 

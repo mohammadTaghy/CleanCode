@@ -16,17 +16,7 @@ namespace CleanCode_MeaningfulNames
         //incorrect
         void payment() { }
     }
-    class Complex
-    {
-        int number;
-        public Complex(int number) { this.number = number; }
-
-        void FromRealNumber(int number)
-        {
-
-            this.number = number;
-        }
-    }
+    
     class Product
     {
         string name;
@@ -36,7 +26,6 @@ namespace CleanCode_MeaningfulNames
         public Product(string name, string description)
         {
             this.name = name;
-
             this.description = description;
             cultureId = CultureInfo.CurrentCulture.LCID;
         }
@@ -49,6 +38,7 @@ namespace CleanCode_MeaningfulNames
                 cultureId = CultureInfo.CurrentCulture.LCID
             };
         }
+       
     }
 
 }

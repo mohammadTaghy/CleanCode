@@ -13,10 +13,16 @@ namespace CleanCode_MeaningfulNames
         {
             ///
         }
+       
         int a1 = 0;
         int a2 = 0;
         int a3 = 0;
         int a4 = 0;
+        //better
+        void CopyChar_Clean(char[] source, Char[] destination)
+        {
+            ////
+        }
         #endregion
         #region Noise words are another meaningless distinction
         class Product

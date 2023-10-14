@@ -13,6 +13,7 @@ namespace CleanCode_MeaningfulNames
     class Address
     {
         public string State { get; set; }
+        
     }
     class SampleClass
     {
@@ -20,7 +21,11 @@ namespace CleanCode_MeaningfulNames
             Order order = new Order();
             order.State = "Draft";
             Address address = new Address();
-            address.State="Tehran"
+            address.State = "Tehran";
+        }
+        void AddAddress(string state)
+        {
+
         }
     }
 
