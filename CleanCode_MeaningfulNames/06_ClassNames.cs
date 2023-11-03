@@ -8,7 +8,7 @@ namespace CleanCode_MeaningfulNames
 {
     //Correct
     internal class Customer { }
-    internal class WikiPage { }
+    public class WikiPage { }
     internal class Account { }
     //incorrect
     class CustomerManager { }

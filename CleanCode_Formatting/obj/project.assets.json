@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CleanCode_Functions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CleanCode_Functions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanCode_Functions.dll": {}
+        }
+      },
+      "CleanCode_MeaningfulNames/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CleanCode_MeaningfulNames.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanCode_MeaningfulNames.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanCode_Functions/1.0.0": {
+      "type": "project",
+      "path": "../CleanCode_Functions/CleanCode_Functions.csproj",
+      "msbuildProject": "../CleanCode_Functions/CleanCode_Functions.csproj"
+    },
+    "CleanCode_MeaningfulNames/1.0.0": {
+      "type": "project",
+      "path": "../CleanCode_MeaningfulNames/CleanCode_MeaningfulNames.csproj",
+      "msbuildProject": "../CleanCode_MeaningfulNames/CleanCode_MeaningfulNames.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CleanCode_Functions >= 1.0.0",
+      "CleanCode_MeaningfulNames >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_Formatting\\CleanCode_Formatting.csproj",
+      "projectName": "CleanCode_Formatting",
+      "projectPath": "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_Formatting\\CleanCode_Formatting.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_Formatting\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_Functions\\CleanCode_Functions.csproj": {
+              "projectPath": "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_Functions\\CleanCode_Functions.csproj"
+            },
+            "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_MeaningfulNames\\CleanCode_MeaningfulNames.csproj": {
+              "projectPath": "F:\\D\\fanavaran\\CleanCode\\SampleCode\\CleanCode_MeaningfulNames\\CleanCode_MeaningfulNames\\CleanCode_MeaningfulNames.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

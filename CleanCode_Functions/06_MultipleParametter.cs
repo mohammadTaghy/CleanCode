@@ -17,11 +17,10 @@ namespace CleanCode_Functions
         {
             Customer customer = new Customer();
             Product product = new Product();
-
             double price = CalculatePrice(customer, product, 10, false, DeliveryMethod.Prime);
 
-            //OrderRequest request = new OrderRequest(customer, product, 10, false, DeliveryMethod.Prime);
-            //price = CalculatePrice(request);
+            OrderRequest orderRequest = new OrderRequest(customer, product, 10, false, DeliveryMethod.Prime);
+            price = CalculatePrice(orderRequest);
 
         }
 
@@ -31,10 +30,10 @@ namespace CleanCode_Functions
             Product product,
             int quantity,
             bool isGift,
-            DeliveryMethod deloveryMethod)
+            DeliveryMethod deliveryMethod)
         {
-            double discountRate = getDiscountRate(customer, product, quantity, isGift, deloveryMethod);
-            double deliveryCost = getDeliveryCost(customer, product, quantity, isGift, deloveryMethod);
+            double discountRate = getDiscountRate(customer, product, quantity, isGift, deliveryMethod);
+            double deliveryCost = getDeliveryCost(customer, product, quantity, isGift, deliveryMethod);
             return (quantity * product.Price * discountRate) + deliveryCost;
         }
 
@@ -92,11 +91,11 @@ namespace CleanCode_Functions
     }
     public class EmailMessage
     {
-        public string From { get; set; }
-        public string To { get; set; }
-        public string Subject { get; set; }
-        public string Body { get; set; }
-        public bool IsHtml { get; set; }
+        string From { get; set; }
+        string To { get; set; }
+        string Subject { get; set; }
+        string Body { get; set; }
+        bool IsHtml { get; set; }
         public EmailMessage(string from, string to, string subject, string body, bool isHtml)
         {
             From = from;

@@ -19,9 +19,9 @@ namespace CleanCode_Functions
             return param == null || param.Length == 0;
         }
         //transform inputparam
-        public static string trim(string s)
+        public static string trim(string text)
         {
-            return s.Trim();
+            return text.Trim();
         }
         // event function
         public void Insert(Student student)
@@ -29,20 +29,23 @@ namespace CleanCode_Functions
 
         }
         public void LogError(string error)
-        { Console.Error.WriteLine(error); }
+        {
+            Console.Error.WriteLine(error);
+        }
         public class Student
         {
 
         }
-
+        //flag Pramaeter
         public void FlagParameter(bool flag)
         {
-            if(flag)
+            if (flag)
             {
 
             }
-            else { 
-            
+            else
+            {
+
             }
         }
     }

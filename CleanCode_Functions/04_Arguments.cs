@@ -14,7 +14,7 @@ namespace CleanCode_Functions
         private void twoParameterFinction(int param1, int param2)
         {
         }
-        private void threeParameterFinction(int param1, int param2)
+        private void threeParameterFinction(int param1, int param2, int param3)
         {
         }
        

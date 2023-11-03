@@ -7,24 +7,29 @@ using System.Threading.Tasks;
 
 namespace CleanCode_Functions
 {
-    internal class Function_04_OutputArguments
+    internal class SampleOfOutputArguments
     {
-        private SampleReport sampleReport;
-        public Function_04_OutputArguments()
+       // private SampleReport sampleReport;
+        public SampleOfOutputArguments()
         {
-            sampleReport=new SampleReport();
+            //sampleReport=new SampleReport();
         }
         void MakeReport()
         {
             StringBuilder sb = new StringBuilder();
             appendFooter(sb);
 
-            sampleReport.AppendFooter();
+            //sampleReport.AppendFooter();
         }
         void appendFooter(StringBuilder stringBuilder)
         {
             stringBuilder.Append("some footer");
         }
+        //string appendFooter()
+        //{
+
+        //    return "some footer";
+        //}
     }
     public class SampleReport
     {
