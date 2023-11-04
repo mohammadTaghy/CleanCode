@@ -104,7 +104,7 @@ namespace CleanCode_Functions
             Body = body;
             IsHtml = isHtml;
         }
-        public static void SendEmail(EmailMessage message)
+        public static void SendEmail()
         {
             // some code to send the email
         }

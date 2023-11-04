@@ -25,11 +25,11 @@ namespace CleanCode_Functions
         {
             stringBuilder.Append("some footer");
         }
-        //string appendFooter()
-        //{
+        string appendFooter()
+        {
 
-        //    return "some footer";
-        //}
+            return "some footer";
+        }
     }
     public class SampleReport
     {
