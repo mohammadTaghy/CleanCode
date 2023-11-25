@@ -14,12 +14,6 @@ namespace CleanCode_ObjectsAndDataStructures
         public double X;
         public double Y;
 
-        // A constructor that initializes the fields
-        public Point(double x, double y)
-        {
-            X = x;
-            Y = y;
-        }
     }
     // A class that represents a point on the Cartesian plane
     public class Point_Clean
@@ -27,13 +21,6 @@ namespace CleanCode_ObjectsAndDataStructures
         // Private fields that store the coordinates of the point
         private double x;
         private double y;
-
-        // A constructor that initializes the fields
-        public Point_Clean(double x, double y)
-        {
-            this.x = x;
-            this.y = y;
-        }
 
         // A public method that returns the x-coordinate of the point
         public double GetX()

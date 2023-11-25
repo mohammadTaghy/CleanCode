@@ -30,6 +30,7 @@ namespace CleanCode_Functions
 
             return "some footer";
         }
+       
     }
     public class SampleReport
     {
@@ -43,5 +44,36 @@ namespace CleanCode_Functions
         {
             reportContent.Append("\n");
         }
+    }
+    public class SampleTwo
+    {
+        public SampleTwo()
+        {
+            int[] output = new int[1];
+            calculateSquare(5, output);
+            int square = output[0];
+        }
+        void calculateSquare(int input, int[] result)
+        {
+            result[0] = input * input;
+        }
+
+        // Calling the function
+       
+    }
+    public class SampleTwoClean
+    {
+        public SampleTwo()
+        {
+            int[] output = new int[1];
+            int square =  calculateSquare(5, output);
+        }
+        int calculateSquare(int input, int[] result)
+        {
+            return input * input;
+        }
+
+        // Calling the function
+
     }
 }
